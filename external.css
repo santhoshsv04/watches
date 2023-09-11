@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Fasthand&family=Merriweather:ital@1&family=Noto+Sans&family=Orbitron&family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Changa', sans-serif;
+}
+
+.top{
+    background-color: rgb(21, 80, 243);
+    width: 100%;
+    padding: 6px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    gap: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.content{
+    background-color: firebrick;
+    width: 380px;
+    height: 100px;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 45px;
+    padding:10px 17px 50px 40px;
+}
+.name{
+    font-size: 17px;
+}
+.para{
+    font-size: 14px;  
+}
